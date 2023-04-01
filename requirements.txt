@@ -1,0 +1,9 @@
+python3
+numpy
+pandas
+Flask
+scikit-learn
+matplotlib
+seaborn
+pickle
+json

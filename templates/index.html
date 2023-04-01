@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<center><html>
+  <head>
+    <h1>GENERAITON PREDICTOR</h1>
+  </head>
+  <body>
+    <form action="/predict" method="post">
+      <label for="year">Enter Year:</label>
+    <input type="text" name="year">
+      <br>
+      <br>
+      <label> Choose Gender</label>:</label><br>
+      <input type="radio"  name="sex" value="0">
+      <label for="sex">Male</label>
+      <input type="radio" id="integer-option-2" name="sex" value="1">
+      <label for="sex">Female</label>
+      <br>
+      <br>
+      <label> Choose Age Category</label>:</label>
+      <br>
+      <input type="radio" id="integer-option-5" name="age" value="5">
+      <label for="integer-option-5">5-14 years</label><br>
+      <input type="radio" id="integer-option-1" name="age" value="0">
+      <label for="integer-option-1">15-24 years</label><br>
+      <input type="radio" id="integer-option-4" name="age" value="3">
+      <label for="integer-option-4">25-34 years</label><br>
+      <input type="radio" id="integer-option-2" name="age" value="1">
+      <label for="integer-option-2">35-54 years</label><br>
+      <input type="radio" id="integer-option-5" name="age" value="4">
+      <label for="integer-option-5">55-74 years</label>
+      <br><input type="radio" id="integer-option-3" name="age" value="2">
+      <label for="integer-option-3">75+ years</label><br><br>
+      <label for="integer-input">GDP For Year:</label>
+      <input type="text" id="integer-input" name="gdp_for_year">
+      <br>
+      <br>
+      <label for="suicides_no">Suicides No:</label>
+      <input type="text" id="suicides_no" name="suicides_no">
+      <br>
+      <br>
+      <label for="population">Population:</label>
+      <input type="text" id="population" name="population">
+      <br><br>
+      <label for="suicide_rate">Suicide Rate:</label>
+      <input type="text" id="suicide_rate" name="suicide_rate" >
+      <br><br>
+      <label for="gdp_per_capita">GDP Per Capital:</label>
+      <input type="text" id="gdp_per_capita" name="gdp_per_capita">
+      <br><br>
+      <br>
+      <br>
+      <input type="submit" id="predict" value="Predict..!!">
+    </form>
+</body> 
+</html>
+</center>
